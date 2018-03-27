@@ -53,24 +53,6 @@ video {
 .mediaPlayer:hover .controls_wrapper, .mediaPlayer:focus .controls_wrapper {
   opacity: 1; }
 
-.timer {
-  display: flex;
-  flex-direction: row;
-  font-size: 12px;
-  font-family: monospace;
-  color: white;
-  flex: 5;
-  position: relative;
-  align-items: center;
-  height: 100%; }
-
-.timerBar {
-  height: 20px;
-  background-color: aqua;
-  position: absolute;
-  bottom: 5px;
-  z-index: 4; }
-
 button {
   height: 40px;
   background-color: transparent;
