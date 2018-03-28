@@ -8,30 +8,8 @@ video {
     justify-content: center;
 }
 
-.controls_wrapper {
-    // visibility: hidden;
-    position: absolute;
-    bottom: 50px;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
-    background: rgb(181,189,200); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
-    height: 40px;
-    width: 80%;
-    z-index: 1;
-    border-radius: 3px;
-    display: flex;
-    opacity: .5;
-    transition: 1s all;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-}
 
-.mediaPlayer:hover .controls_wrapper, .mediaPlayer:focus .controls_wrapper {
-    opacity: 1;
-}
+
+
 
 
