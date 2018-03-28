@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-@font-face {
-  font-family: 'HeydingsControlsRegular';
-  src: url("../../fonts/heydings_controls-webfont.eot");
-  src: url("../../fonts/heydings_controls-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/heydings_controls-webfont.woff") format("woff"), url("../../fonts/heydings_controls-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
 p {
   font-family: "Roboto", sans-serif; }
 
@@ -13,32 +7,7 @@ p {
   margin-left: auto;
   margin-right: auto; }
 
-.text-wrapper {
-  max-width: 1100px;
-  padding: 2em; }
-
-video {
-  max-width: 100%; }
-
-.mediaPlayer {
-  position: relative;
-  display: flex;
-  justify-content: center; }
-
-button {
-  height: 40px;
-  background-color: transparent;
-  border: none; }
-
-button:hover {
-  opacity: .5; }
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #5feb0e;
-  background-color: transparent; }
+.mejs__controls {
+  background: linear-gradient(transparent, rgba(90, 241, 16, 0.62)); }
 
 /*# sourceMappingURL=styles.css.map */
